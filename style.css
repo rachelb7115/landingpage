@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Cabin', sans-serif;
+}
+header img{
+    width: 100px;
+    height: 80px;
+}
+ul {
+    list-style-type: none;  
+    display: flex;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+    color: #D4E09B;
+    font-size: 20px;
+}
+li:hover {
+    transform: scale(0.75);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #A44A3F;
+    align-items: center;
+    padding: 5px 20px;
+}
+.first img{
+height: 275px;
+width: 425px;
+border-radius: 10px;
+border: 2px solid #F6F4D2;
+}
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #A44A3F;
+    padding: 50px 150px;
+    color: #F6F4D2;
+}
+.first button{
+    background-color: #D4E09B;
+    color:#A44A3F;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.left a{
+    color: #A44A3F;
+}
+.first button:hover,
+.left a:hover{
+    transform: scale(1.15);
+    color: white;
+    border-color: white;
+    background-color: #A44A3F;
+}
+.left h1{
+    font-size: 45px;
+}
+.second {
+    text-align: center;
+    background-color: #F6F4D2;
+}
+.second img{
+    height:150px;
+    width:150px;
+    border-radius: 10px;
+    border: 2px solid #f19c79;
+}
+h2 {
+    color: #A44A3F;
+    font-size: 35px;
+}
+.left {
+    width: 400px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;    
+    color: #A44A3F;
+}
+.photos {
+    max-width: 200px;
+}
+.third {
+    background-color: #f19c79;
+    font-size: 40px;
+    padding: 100px 150px;
+    color: #A44A3F;
+    font-family: 'Lora', serif;
+}
+.third span{
+    font-weight: 800;
+}
+
+.last {
+    display:flex;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px;
+    background-color: #F6F4D2;
+}
+.fourth {
+    background-color: #D4E09B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #A44A3F;
+    padding: 10px 100px;
+    min-width: 800px;
+    min-height: 100px;
+}
+.fourth button{
+    background-color: #F6F4D2;
+    color: #f19c79;
+    border:2px solid #f19c79;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+.fourth button:hover{
+    transform: scale(1.15);
+    color: white;
+    border-color: white;
+    background-color: #D4E09B;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A44A3F;
+    color: #D4E09B;
+    font-weight: 500;
+    height: 50px;
+}
